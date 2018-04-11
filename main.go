@@ -1,9 +1,9 @@
 package main
 
 import (
-	_ "shorturl/routers"
+	_ "go-shorturl/routers"
 	"github.com/astaxie/beego"
-	"shorturl/models"
+	"go-shorturl/models"
 )
 
 func main() {

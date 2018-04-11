@@ -20,12 +20,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">beego</a>
+            <a class="navbar-brand" href="#">短网址</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">首页</a></li>
-                <li><a href="#about">报表</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -47,7 +46,7 @@
                             </span>
                         </div>
                         <blockquote style="margin-top: 10px; word-break: break-all; word-wrap: break-word;">
-                            <footer>短网址：{{.shortUrl}}</footer>
+                            <footer>短网址：<a href="{{.shortUrl}}" target="_blank" >{{.shortUrl}}</a></footer>
                         </blockquote>
                         <hr>
                         <p>短网址二维码</p>

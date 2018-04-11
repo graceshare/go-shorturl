@@ -10,7 +10,7 @@ import (
  */
 type Detail struct {
 	Id uint64
-	UrlId int
+	Short string
 	AccessTime time.Time
 	Device string `orm:"size(20)"`
 	Browser string `orm:"size(20)"`

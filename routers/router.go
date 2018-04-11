@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"shorturl/controllers"
+	"go-shorturl/controllers"
 	"github.com/astaxie/beego"
 )
 
